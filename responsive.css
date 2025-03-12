@@ -1,0 +1,244 @@
+/* responsiveness */
+
+@media screen and (max-width: 359px) {
+  /*average phone size*/
+
+  h1 {
+    height: 12vh;
+    font-size: 27px;
+    padding-top: 2rem;
+  }
+  img {
+    height: 100px;
+    width: 100px;
+    margin: 20px 4px;
+  }
+  .score-container {
+    gap: 5rem;
+  }
+  .scoreBox span {
+    font-size: 50px;
+  }
+  .scoreBox h3 {
+    font-size: 35px;
+    margin-left: -30px;
+  }
+  .scoreBox #cmpSpan {
+    margin-left: 40px;
+  }
+  .result {
+    width: 100vw;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    height: 12vh;
+  }
+}
+@media screen and (min-width: 360px) and (max-width: 440px) {
+  /*medium phone size*/
+
+  h1 {
+    height: 12vh;
+    font-size: 27px;
+    padding-top: 2rem;
+  }
+  img {
+    height: 113px;
+    width: 113px;
+    margin: 20px 7px;
+  }
+  .score-container {
+    gap: 5rem;
+  }
+  .scoreBox span {
+    font-size: 50px;
+  }
+  .scoreBox h3 {
+    font-size: 35px;
+    margin-left: -30px;
+  }
+  .scoreBox #cmpSpan {
+    margin-left: 40px;
+  }
+  .result {
+    width: 100vw;
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    height: 11vh;
+  }
+}
+@media screen and (min-width: 441px) and (max-width: 600px) {
+  /*large phone size*/
+
+  h1 {
+    height: 12vh;
+    font-size: 38px;
+    padding-top: 2rem;
+  }
+  img {
+    height: 130px;
+    width: 130px;
+    margin: 20px 12px;
+  }
+  .score-container {
+    gap: 8rem;
+  }
+  .scoreBox span {
+    font-size: 60px;
+  }
+  .scoreBox h3 {
+    font-size: 40px;
+    margin-left: -30px;
+  }
+  .scoreBox #cmpSpan {
+    margin-left: 40px;
+  }
+  .result {
+    width: 330px;
+    margin: 0 auto;
+    font-size: 1.7rem;
+    margin-top: 5rem;
+    height: 10vh;
+  }
+}
+@media screen and (min-width: 601px) and (max-width: 766px) {
+  /*large phones*/
+
+  h1 {
+    height: 12vh;
+    font-size: 52px;
+    padding-top: 2rem;
+  }
+  img {
+    height: 170px;
+    width: 170px;
+    margin: 20px 12px;
+  }
+  .score-container {
+    gap: 8rem;
+    margin-top: 1rem;
+  }
+  .scoreBox span {
+    font-size: 60px;
+  }
+  .scoreBox h3 {
+    font-size: 40px;
+    margin-left: -30px;
+  }
+  .scoreBox #cmpSpan {
+    margin-left: 40px;
+  }
+  .result {
+    width: 500px;
+    margin: 0 auto;
+    font-size: 2rem;
+    margin-top: 5rem;
+    height: 12vh;
+  }
+}
+@media screen and (min-width: 767px) and (max-width: 1024px) {
+  /*extra large phone size,tablets*/
+
+  h1 {
+    height: 12vh;
+    font-size: 68px;
+    padding-top: 0.7rem;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+  }
+  .score-container {
+    gap: 8rem;
+    margin-top: 1rem;
+  }
+  .scoreBox span {
+    font-size: 60px;
+  }
+  .scoreBox h3 {
+    font-size: 40px;
+    margin-left: -30px;
+  }
+  .scoreBox #cmpSpan {
+    margin-left: 40px;
+  }
+  .result {
+    width: 630px;
+    margin: 0 auto;
+    font-size: 2.1rem;
+    margin-top: 5rem;
+    height: 12vh;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1550px) {
+  /*laptos*/
+
+  h1 {
+    height: 14vh;
+    font-size: 70px;
+    padding-top: 0.7rem;
+  }
+  img {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+  }
+  .score-container {
+    gap: 8rem;
+    margin-top: 1rem;
+  }
+  .scoreBox span {
+    font-size: 60px;
+  }
+  .scoreBox h3 {
+    font-size: 40px;
+    margin-left: -30px;
+  }
+  .scoreBox #cmpSpan {
+    margin-left: 40px;
+  }
+  .result {
+    width: 630px;
+    margin: 0 auto;
+    font-size: 2.1rem;
+    margin-top: 5rem;
+    height: 12vh;
+  }
+}
+
+@media screen and (min-width: 2049px) {
+  /*4k leds plus plus size*/
+
+  h1 {
+    height: 12vh;
+    font-size: 120px;
+    padding-top: 0.7rem;
+  }
+  img {
+    height: 360px;
+    width: 360px;
+    margin: 20px;
+    margin-top: 70px;
+  }
+  .score-container {
+    gap: 8rem;
+    margin-top: 10rem;
+  }
+  .scoreBox span {
+    font-size: 100px;
+  }
+  .scoreBox h3 {
+    font-size: 90px;
+    margin-left: -30px;
+  }
+  .scoreBox #cmpSpan {
+    margin-left: 100px;
+  }
+  .result {
+    width: 50vw;
+    margin: 0 auto;
+    font-size: 3rem;
+    margin-top: 5rem;
+    height: 12vh;
+  }
+}
